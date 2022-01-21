@@ -44,20 +44,32 @@
   display: flex;
 }
 
-.header_ul {
+.header_buttons {
   display: flex;
+  justify-content: center;
   align-items: center;
-  text-align: right;
+  text-align: center;
+  gap: 10px;
 }
 
-.header_li {
+.buttons_li {
   display: flex;
   color: white;
   padding-left: 30px;
+  padding-right: 30px;
   padding-top: 10px;
+  padding-bottom: 10px;
   font-size: 20px;
+  border: 2px solid red;
+  border-radius: 20px;
+  box-shadow: red 0px 0px 20px 5px;
+  background-color: rgb(92, 5, 5);
 }
-
+.buttons_li,
+.btn,
+.header_buttons :hover {
+  cursor: pointer;
+}
 .header_text_big {
   display: flex;
   width: 1500px;
@@ -111,14 +123,18 @@
 }
 
 .btn {
-  background-color: red;
+  border: 2px solid red;
   text-align: center;
   justify-content: center;
   align-items: center;
   display: flex;
   position: relative;
   width: 150px;
-  height: 30px;
+  height: 50px;
+  border-radius: 20px;
+  box-shadow: red 0px 0px 20px 5px;
+  background-color: rgb(92, 5, 5);
+  color: white;
 }
 
 .header_white_line {
@@ -142,6 +158,6 @@
 
 .blank_space {
   display: flex;
-  height: 200px;
+  height: 43px;
   width: 100%;
 }
