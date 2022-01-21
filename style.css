@@ -70,6 +70,7 @@
 .header_buttons :hover {
   cursor: pointer;
 }
+
 .header_text_big {
   display: flex;
   width: 1500px;
@@ -160,4 +161,68 @@
   display: flex;
   height: 43px;
   width: 100%;
+}
+
+.about_me {
+  display: flex;
+  position: absolute;
+  border: 1px solid red;
+  width: 70%;
+  height: 70%;
+  justify-content: center;
+  background-color: rgb(44, 44, 44);
+  color: white;
+  left: 200px;
+  top: 100px;
+  padding-top: 10px;
+}
+.about_me_langs {
+  position: relative;
+  left: 200px;
+  width: 100%;
+  display: flex;
+  color: white;
+  flex-direction: column;
+}
+.about_me_langs h2 {
+  padding-top: 10px;
+}
+.about_me_langs-ul {
+  padding-top: 20px;
+  display: flex;
+  color: white;
+  flex-direction: column;
+}
+.close_btn {
+  justify-content: center;
+  display: flex;
+  width: 200px;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+.hide {
+  display: none;
+}
+
+.call_number {
+  height: 45px;
+  overflow-y: hidden;
+}
+
+.numberModal {
+  display: flex;
+  position: absolute;
+  height: 50px;
+  width: 250px;
+  border: 2px solid red;
+  top: 300px;
+  left: 550px;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(49, 48, 48);
+  color: white;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: red 0px 0px 15px 5px;
 }
